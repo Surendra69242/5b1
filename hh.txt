@@ -1,0 +1,4 @@
+allowing ssh access:
+to enqable ssh connections to your ec2 instance,you would create an inbound rule in your security group allowing tcp traffic on port22 from your desired ip address range.
+allowing web server access:
+if you want your ec2 instance to serve web traffic,you would create an inbound rule allowing tcp traffic on port 80
